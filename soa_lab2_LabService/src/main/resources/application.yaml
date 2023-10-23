@@ -11,12 +11,12 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-#    url: "jdbc:postgresql://pg:5432/studs"
-#    username: "s311690"
-#    password: "frxR7QvRq6rTzu0A"
-    url: "jdbc:postgresql://localhost:5432/postgres"
-    username: "postgres"
-    password: "postgres"
+    url: "jdbc:postgresql://pg:5432/studs"
+    username: "s311690"
+    password: "frxR7QvRq6rTzu0A"
+#    url: "jdbc:postgresql://localhost:5432/postgres"
+#    username: "postgres"
+#    password: "postgres"
 
   jpa:
     hibernate:
