@@ -1,0 +1,5 @@
+server:
+  port: 9789
+
+urls:
+  labApi: "http://localhost:9788/api/v1/bars/discipline"
