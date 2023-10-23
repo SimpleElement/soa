@@ -2,12 +2,17 @@ package org.example.soa_lab2_LabService;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import java.lang.reflect.Array;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-public class StartApplication {
+public class StartApplication extends SpringBootServletInitializer {
     public static void main(String[] args) {
         SpringApplication.run(StartApplication.class, args);
+    }
+
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        return application.sources(StartApplication.class);
     }
 }

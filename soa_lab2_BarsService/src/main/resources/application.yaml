@@ -1,5 +1,9 @@
 server:
   port: 9789
 
+#  ssl:
+#    trust-store: classpath:keystore/soa.p12
+#    trust-store-password: password
+
 urls:
   labApi: "http://localhost:9788/api/v1/bars/discipline"

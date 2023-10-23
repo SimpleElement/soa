@@ -5,8 +5,9 @@ import org.example.soa_lab2_LabService.model.entity.LabEntity;
 import org.example.soa_lab2_LabService.service.repository.LabRepository;
 import org.jooq.Condition;
 import org.jooq.DSLContext;
-import org.jooq.SortField;
-import org.springframework.data.domain.*;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
