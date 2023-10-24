@@ -12,7 +12,7 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
-import static org.example.soa_lab2_LabService.generated.jooq.public_.tables.LabRef.LAB_REF;
+import static org.example.soa_lab2_LabService.generated.jooq.s311690.tables.LabRef.LAB_REF;
 
 @Repository
 @RequiredArgsConstructor

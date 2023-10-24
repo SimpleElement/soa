@@ -7,7 +7,7 @@ package org.example.soa_lab2_LabService.generated.jooq;
 import java.util.Arrays;
 import java.util.List;
 
-import org.example.soa_lab2_LabService.generated.jooq.public_.Public;
+import org.example.soa_lab2_LabService.generated.jooq.s311690.Public;
 import org.jooq.Constants;
 import org.jooq.Schema;
 import org.jooq.impl.CatalogImpl;

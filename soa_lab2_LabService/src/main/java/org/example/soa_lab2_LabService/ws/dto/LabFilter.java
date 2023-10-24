@@ -4,18 +4,15 @@ import lombok.Getter;
 import lombok.Setter;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.example.soa_lab2_LabService.common.object.page.Page;
-import org.example.soa_lab2_LabService.generated.jooq.public_.tables.LabRef;
 import org.jooq.Condition;
-import org.jooq.SortField;
 import org.jooq.impl.DSL;
 import org.springframework.data.domain.Sort;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 
-import static org.example.soa_lab2_LabService.generated.jooq.public_.tables.LabRef.LAB_REF;
+import static org.example.soa_lab2_LabService.generated.jooq.s311690.tables.LabRef.LAB_REF;
 
 
 @Getter
