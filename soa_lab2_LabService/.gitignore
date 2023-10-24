@@ -1,5 +1,4 @@
 target/
-src/main/java/org/example/soa_lab2_LabService/generated
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
