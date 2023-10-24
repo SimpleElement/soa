@@ -139,7 +139,7 @@
               <generator>
                 <database>
                   <name>org.jooq.meta.postgres.PostgresDatabase</name>
-                  <includes>public.*</includes>
+                  <includes>s311690.*</includes>
                 </database>
                 <target>
                   <directory>src/main/java</directory>
